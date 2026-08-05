@@ -1,0 +1,1 @@
+document.querySelectorAll('form').forEach(form=>form.addEventListener('submit',event=>{event.preventDefault();const button=form.querySelector('button');if(button){button.textContent='Thanks — we’ll be in touch.';button.disabled=true}}));
